@@ -1,0 +1,16 @@
+@import '../../index.css';
+
+.list-item {
+    border-top: 1px solid var(--text-color);
+}
+
+.company {
+    text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    align-self: flex-end;
+}
+
+.company:hover {
+    text-decoration: none;
+}

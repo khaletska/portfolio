@@ -1,0 +1,26 @@
+@import '../../index.css';
+
+.proj-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 2rem;
+}
+
+.proj-item {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.proj-name {
+    font-size: 1.2rem;
+}
+
+.proj-item>img {
+    max-height: 350px;
+    max-width: 350px;
+    object-fit: contain;
+}

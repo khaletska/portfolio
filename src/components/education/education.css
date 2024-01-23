@@ -1,0 +1,26 @@
+@import '../../index.css';
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-first-line, .list-second-line {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.list-second-line {
+    justify-content: space-between;
+}
+
+.specialization {
+    text-transform: uppercase;
+}
