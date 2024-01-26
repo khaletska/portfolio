@@ -2,25 +2,107 @@
 
 .proj-list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
     gap: 2rem;
-}
 
-.proj-item {
-    display: flex;
-    flex-direction: column;
-    color: var(--text-color);
-    text-decoration: none;
+    align-items: center;
+    width: 100%;
+    min-height: 550px;
 }
 
 .proj-name {
-    font-size: 1.2rem;
+    font-size: 3rem;
 }
 
-.proj-item>img {
-    max-height: 350px;
-    max-width: 350px;
+.proj-item {
+    color: var(--text-color);
+    text-decoration: none;
+    width: 450px;
+    height: 450px;
+    perspective: 3200px;
+    position: relative;
+    overflow: visible;
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 4px 12px 40px 6px rgba(0, 0, 0, 0.09);
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.front {
+    transform: rotateY(0deg);
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+.back {
+    transform: rotateY(-180deg);
+    background: var(--bg-color);
+    color: var(--text-color);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.proj-item:hover .front {
+    transform: rotateY(180deg);
+
+}
+
+.proj-item:hover .back {
+    transform: rotateY(0deg);
+}
+
+.front * {
+    padding: 1rem 1rem 0;
+}
+
+.back img {
+    width: 300px;
     object-fit: contain;
+    border: 1px solid var(--text-color);
+}
+
+.proj-desc {
+    opacity: 0.7;
+}
+
+.btn-box {
+    overflow: hidden;
+    position: relative;
+    width: min-content;
+    white-space: nowrap;
+}
+
+.btn {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+}
+
+.btn:hover::before {
+    width: 100%;
+    left: 0;
+    right: unset;
 }

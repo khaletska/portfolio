@@ -1,16 +1,95 @@
 @import '../../index.css';
 
-.list-item {
+.exp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    width: 100%;
+}
+
+.exp-list-item {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 2.6rem;
+    perspective: 800px;
     border-top: 1px solid var(--text-color);
+}
+
+.exp-list-first-line,
+.company-box {
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.exp-list-first-line {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+
+    transform-origin: top;
+    transform: rotateX(0deg);
+    transform: translateY(0);
+}
+
+.company-box {
+    /* background-color: var(--text-color); */
+    transform-origin: bottom;
+    transform: rotateX(-90deg);
+    transform: translateY(3.5rem);
+}
+
+.exp-list-item:hover .exp-list-first-line {
+    transform: rotateX(90deg);
+    transform: translateY(-3.5rem);
+}
+
+.exp-list-item:hover .company-box {
+    transform: rotateX(0deg);
+}
+
+.exp-date,
+.position,
+.company {
+    font-size: 1.6rem;
+}
+
+.company-box {
+    align-self: flex-end;
+    justify-self: flex-end;
+    /* overflow: hidden; */
+    position: relative;
+    width: min-content;
+    white-space: nowrap;
 }
 
 .company {
     text-transform: uppercase;
+    text-decoration: none;
+    /* color: var(--bg-color); */
     color: var(--text-color);
-    font-size: 1.2rem;
-    align-self: flex-end;
 }
 
-.company:hover {
-    text-decoration: none;
+.company::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+}
+
+.company:hover::before {
+    width: 100%;
+    left: 0;
+    right: unset;
 }
