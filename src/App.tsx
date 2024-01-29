@@ -4,17 +4,17 @@ import Education from './components/education/education';
 import Experience from './components/experience/experience';
 import Projects from './components/projects/projects';
 import Footer from './components/footer/footer';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+        <Header />
         <Welcome />
         <Education />
         <Experience />
         <Projects />
         <Footer />
-      </header>
     </div>
   );
 }

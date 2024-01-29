@@ -1,37 +1,34 @@
 @import '../../index.css';
 
-.exp-list {
+.list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
-    width: 100%;
 }
 
-.exp-list-item {
+.list-item {
     display: flex;
     flex-direction: column;
-
-    width: 100%;
     position: relative;
     overflow: hidden;
-    height: 2.6rem;
+    height: 3rem;
     perspective: 800px;
     border-top: 1px solid var(--text-color);
 }
 
-.exp-list-first-line,
-.company-box {
+.list-first-line,
+.list-second-line {
     transition: transform 0.3s ease;
     position: absolute;
-    width: 100%;
     height: 100%;
     backface-visibility: hidden;
 }
 
-.exp-list-first-line {
+.list-first-line {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 4rem;
 
     transform-origin: top;
@@ -39,32 +36,36 @@
     transform: translateY(0);
 }
 
-.company-box {
-    /* background-color: var(--text-color); */
+.left {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.list-second-line {
     transform-origin: bottom;
     transform: rotateX(-90deg);
     transform: translateY(3.5rem);
 }
 
-.exp-list-item:hover .exp-list-first-line {
+.list-item:hover .list-first-line {
     transform: rotateX(90deg);
     transform: translateY(-3.5rem);
 }
 
-.exp-list-item:hover .company-box {
+.list-item:hover .list-second-line {
     transform: rotateX(0deg);
 }
 
 .exp-date,
 .position,
 .company {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 
-.company-box {
+.list-second-line {
     align-self: flex-end;
     justify-self: flex-end;
-    /* overflow: hidden; */
     position: relative;
     width: min-content;
     white-space: nowrap;
@@ -73,7 +74,6 @@
 .company {
     text-transform: uppercase;
     text-decoration: none;
-    /* color: var(--bg-color); */
     color: var(--text-color);
 }
 
