@@ -53,10 +53,6 @@ code {
   gap: 2rem;
 }
 
-.text-wrap {
-  text-wrap: break-word;
-}
-
 h2 {
   font-family: var(--title-font);
   font-size: 7rem;

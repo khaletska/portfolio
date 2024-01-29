@@ -1,9 +1,9 @@
 import './experience.css';
 
 const Experience = () => (
-    <section className="container">
+    <section id='experience' className="container">
         <div className="wrapper">
-            <h2 id='experience'>Experience</h2>
+            <h2>Experience</h2>
             <ul className="list">
                 <li className="list-item">
                     <div className='list-first-line'>

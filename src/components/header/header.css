@@ -4,6 +4,7 @@ header {
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: 1px solid var(--text-color);
 }
 
 .link-wrap {

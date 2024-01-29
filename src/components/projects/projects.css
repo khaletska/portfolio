@@ -67,8 +67,9 @@
 }
 
 .back img {
+    position: relative;
     width: 300px;
-    object-fit: contain;
+    object-fit: cover;
     border: 1px solid var(--text-color);
 }
 

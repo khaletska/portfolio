@@ -6,3 +6,8 @@ h1 {
     text-transform: uppercase;
     font-family: var(--title-font);
 }
+
+.intro {
+    text-wrap: break-word;
+    max-width: 60%;
+}

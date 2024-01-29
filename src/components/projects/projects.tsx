@@ -2,11 +2,11 @@ import './projects.css';
 
 const Projects = () => {
     return (
-        <section className="container">
+        <section id='projects' className="container">
             <div
                 style={{ width: "100%" }}
                 className="wrapper">
-                <h2 id='projects'>Projects</h2>
+                <h2>Projects</h2>
                 <div className="proj-list">
                     <div className="proj-item">
 

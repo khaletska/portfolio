@@ -16,9 +16,9 @@ import SQLiteLogo from '../../svg/SQLiteLogo';
 
 const Education = () => {
     return (
-        <section className="container">
+        <section id='education' className="container">
             <div className="wrapper">
-                <h2 id='education'>Education</h2>
+                <h2>Education</h2>
                 <ul className="list">
                     <li className="list-item">
                         <div className='list-first-line'>
