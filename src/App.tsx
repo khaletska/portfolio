@@ -5,7 +5,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/portfolio" element={<Main />} />
       </Routes>
     </BrowserRouter>
   );
