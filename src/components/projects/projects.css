@@ -8,7 +8,9 @@
 
     align-items: center;
     width: 100%;
-    min-height: 550px;
+    min-height: 55vh;
+
+    padding-bottom: 50px;
 }
 
 .proj-name {
@@ -18,8 +20,10 @@
 .proj-item {
     color: var(--text-color);
     text-decoration: none;
-    width: 450px;
-    height: 450px;
+    width: 30%;
+    min-width: 300px;
+    max-width: 450px;
+    height: 45vh;
     perspective: 3200px;
     position: relative;
     overflow: visible;
@@ -49,8 +53,8 @@
     background: var(--bg-color);
     color: var(--text-color);
     align-items: center;
-    justify-content: space-evenly;
-    gap: 2rem;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .proj-item:hover .front {
@@ -68,8 +72,9 @@
 
 .back img {
     position: relative;
-    width: 300px;
-    object-fit: cover;
+    width: 80%;
+    max-height: 60%;
+    object-fit: fill;
     border: 1px solid var(--text-color);
 }
 
@@ -106,4 +111,54 @@
     width: 100%;
     left: 0;
     right: unset;
+}
+
+@media (max-width: 1024px) {
+    .proj-list {
+        min-height: 90vh;
+    }
+    
+    .proj-name {
+        font-size: 2.5rem;
+    }
+    
+    .proj-item {
+        width: 45%;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .proj-list {
+        min-height: 70vh;
+    }
+    
+    .proj-name {
+        font-size: 2rem;
+    }
+    
+    .proj-item {
+        height: 30vh;
+        min-width: 250px;
+    }
+    
+    .proj-desc {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .proj-list {
+        justify-content: center;
+        gap: 0;
+        min-height: 110vh;
+    }
+
+    .proj-name {
+        font-size: 2.5rem;
+    }
+
+    .proj-item {
+        width: 90%;
+    }
 }

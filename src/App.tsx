@@ -1,21 +1,13 @@
-import React from 'react';
-import Welcome from './components/welcome/welcome';
-import Education from './components/education/education';
-import Experience from './components/experience/experience';
-import Projects from './components/projects/projects';
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
+import Main from './pages/main/main';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <Header />
-        <Welcome />
-        <Education />
-        <Experience />
-        <Projects />
-        <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
