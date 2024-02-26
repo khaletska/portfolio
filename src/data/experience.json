@@ -1,0 +1,42 @@
+[
+    {
+        "id": 5,
+        "company": "MindSee",
+        "time": "2023.09 - 2023.12",
+        "position": "Front-End Developer",
+        "link": "https://minds.ee/",
+        "desc": "MindSee is a mental health AI assistant designed to provide support and guidance to individuals in a comforting and non-judgmental environment. As a front-end developer, I was responsible for developing UI for crucial elements such as registration, login, pricing page and other features. Beyond coding, my role extended to active participation in brainstorming sessions, contributing insights to project development, management and planning."
+    },
+    {
+        "id": 4,
+        "company": "Proekspert AS",
+        "time": "2023.05 - 2023.07",
+        "position": "iOS Intern",
+        "link": "https://proekspert.com/",
+        "desc": "As an iOS intern at Proekspert AS, I played a role in enhancing the app's functionality and user experience by developing and integrating innovative features. Despite starting from scratch in Swift, I started independently developing new features from week 2, showcasing my rapid learning ability. Although the company expressed interest in hiring me, the project's postponement temporarily deferred the opportunity."
+    },
+    {
+        "id": 3,
+        "company": "Urartu Systems",
+        "time": "2021.12 - 2022.07",
+        "position": "Design Engineer",
+        "link": "https://urartu.com/",
+        "desc": "Urartu Systems is a cutting-edge firm specializing in high-precision test rigs and control systems. My responsibilities included the development of test bench constructions, creating detailed 3D models and 2D drawings, engineering alternate designs for optimal solutions, and ensuring alignment with technical requirements. I also conducted thorough analyses to assess the feasibility of manufacturing, assembling, and operating various equipment, components, and systems."
+    },
+    {
+        "id": 2,
+        "company": "CPS technology",
+        "time": "2019.01 - 2021.12",
+        "position": "Engineer",
+        "link": "https://cps63.ru/en/",
+        "desc": "At CPS Technology, a trailblazer in internal pipeline protection, I served as an Engineer, contributing to the safeguarding of over 100,000 km of pipelines with CPS sleeves. My role encompassed drafting technical schematics, overseeing quality control, ensuring compliance with labor protection rules, and enhancing both sleeve design and production processes. This multifaceted experience reflects my proficiency in technical drafting, quality assurance, safety regulations, and continuous improvement in engineering practices."
+    },
+    {
+        "id": 1,
+        "company": "Prof-press",
+        "time": "2016.10 - 2018.07",
+        "position": "Product Manager",
+        "link": "",
+        "desc": "At Prof-Press, a substantial player in printed products, I excelled as a Product Manager overseeing delivering approximately 80,000 items monthly and the launch of over 10 entirely new products annually. My role involved coordinating the production of diverse items like puzzles, postcards, and board games. I skillfully managed the end-to-end production lifecycle, from ordering printing materials to scheduling facility work, showcasing my ability to handle multifaceted tasks in a dynamic environment."
+    }
+]

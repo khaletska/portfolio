@@ -64,3 +64,22 @@
         margin-right: 2rem;
     }
 }
+
+
+@media (max-width: 768px) {
+    .degree,
+    .alma-mater,
+    .date,
+    .specialization {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .degree,
+    .alma-mater,
+    .date,
+    .specialization {
+        font-size: 1.2rem;
+    }
+}

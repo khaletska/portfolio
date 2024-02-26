@@ -18,7 +18,7 @@ const Projects = () => {
                             </p>
                         </div>
                         <div className='back'>
-                            <img src="https://media.discordapp.net/attachments/1075493710692876330/1199429701396078774/Screenshot_from_2024-01-23_21-04-47.png?ex=65c282f5&is=65b00df5&hm=24d22a153620e66d6f8e8630bb0246cdaa9a2ae6a0a767907afd7a58ae15900d&=&format=webp&quality=lossless&width=627&height=489"
+                            <img src="https://cdn.discordapp.com/attachments/1075493710692876330/1199429701396078774/Screenshot_from_2024-01-23_21-04-47.png?ex=65e76cf5&is=65d4f7f5&hm=b7ed5162bb263eaa6b3847bf9b1d82cf3ad94ec1a45c115a97b7e594335a8a0a&"
                                 alt="SORK" />
                             <div className='btn-box'>
                                 <a className='btn' href="https://github.com/khaletska/SORK">
@@ -37,7 +37,7 @@ const Projects = () => {
                             </p>
                         </div>
                         <div className='back'>
-                            <img src="https://media.discordapp.net/attachments/1075493710692876330/1199431913174212679/Screenshot_from_2024-01-23_21-14-00.png?ex=65c28504&is=65b01004&hm=8446fe1a37aad02b931555f301fdf317921c6c843c178ccd3c3200ef4dcc693c&=&format=webp&quality=lossless&width=632&height=489"
+                            <img src="https://cdn.discordapp.com/attachments/1075493710692876330/1199431913174212679/Screenshot_from_2024-01-23_21-14-00.png?ex=65e76f04&is=65d4fa04&hm=8c9c8e92f4bb075ea73e4234680956859f8af3e20c3b074ce3d4824fb859fd5d&"
                                 alt="tetris" />
                             <div className='btn-box'>
                                 <a className='btn' href="https://github.com/khaletska/tetris">
@@ -55,7 +55,7 @@ const Projects = () => {
                             </p>
                         </div>
                         <div className='back'>
-                            <img src="https://media.discordapp.net/attachments/1075493710692876330/1199431351187820585/Screenshot_from_2024-01-23_21-11-49.png?ex=65c2847e&is=65b00f7e&hm=72d15cddd49db0ca5bbec843259a0c8bf547ef31bd113edea55f50b809152c38&=&format=webp&quality=lossless&width=632&height=489"
+                            <img src="https://cdn.discordapp.com/attachments/1075493710692876330/1199431351187820585/Screenshot_from_2024-01-23_21-11-49.png?ex=65e76e7e&is=65d4f97e&hm=ffff9b4e1ad145524933b264488791417aa9ea78ca858e7d03e97c3c51aad898&"
                                 alt="forum" />
                             <div className='btn-box'>
                                 <a className='btn' href="https://github.com/khaletska/foorum">

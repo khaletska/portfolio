@@ -1,6 +1,23 @@
 @import '../../index.css';
 
+.exp-container {
+    min-height: calc(100vh - 50px);
+
+    margin: 0 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.exp-header {
+    margin-top: 8rem;
+}
+
 .list {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -22,15 +39,14 @@
     position: absolute;
     height: 100%;
     backface-visibility: hidden;
+    width: 100%;
 }
 
 .list-first-line {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 4rem;
-
     transform-origin: top;
     transform: rotateX(0deg);
     transform: translateY(0);
@@ -43,6 +59,10 @@
 }
 
 .list-second-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     transform-origin: bottom;
     transform: rotateX(-90deg);
     transform: translateY(3.5rem);
@@ -60,11 +80,11 @@
 .exp-date,
 .position,
 .company {
+    white-space: nowrap;
     font-size: 1.8rem;
 }
 
-.list-second-line {
-    justify-self: flex-start;
+.company-box {
     position: relative;
     width: min-content;
     white-space: nowrap;
@@ -91,4 +111,58 @@
     width: 100%;
     left: 0;
     right: unset;
+}
+
+.small-svg {
+    max-width: 24px;
+    height: 48px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .list-item {
+        height: auto;
+    }
+
+    .list-first-line,
+    .list-second-line {
+        gap: 0;
+        position: unset;
+        transition: none;
+        backface-visibility: visible;
+        transform: none;
+
+    }
+
+    .list-first-line {
+        flex-direction: column;
+    }
+
+    .list-item:hover .list-first-line,
+    .list-item:hover .list-first-line {
+        transform: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .exp-date,
+    .position,
+    .company {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 639px) {
+    .left {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .exp-date,
+    .position,
+    .company {
+        font-size: 1.2rem;
+    }
 }

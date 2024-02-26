@@ -46,6 +46,7 @@ code {
 }
 
 .wrapper {
+  min-height: 100%;
   width: 100%;
 
   display: flex;
@@ -85,5 +86,11 @@ p {
   
   p {
     font-size:0.8rem;
+  }
+}
+
+@media (max-width: 350px) {
+  h1, h2 {
+    font-size: 2rem;
   }
 }
