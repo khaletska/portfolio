@@ -1,5 +1,13 @@
 [
     {
+        "id": 6,
+        "company": "Pipedrive",
+        "time": "2024.05 - 2024.08",
+        "position": "iOS Intern",
+        "link": "https://www.pipedrive.com/",
+        "desc": "Pipedrive is a sales CRM and pipeline management software designed to help small sales teams manage intricate or lengthy sales processes. It provides tools for sales automation, email tracking, and detailed reporting to enhance sales productivity and performance."
+    },
+    {
         "id": 5,
         "company": "MindSee",
         "time": "2023.09 - 2023.12",
