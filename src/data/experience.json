@@ -1,11 +1,19 @@
 [
     {
+        "id": 7,
+        "company": "Wise",
+        "time": "2025.09 - 2026.01",
+        "position": "Software Engineer",
+        "link": "https://www.wise.com/",
+        "desc": "Worked on production iOS app using Swift, SwiftUI, and UIKit. Developed and refined features improving core user flows. Strong focus on UI work: building reusable components, fixing layout and UX issues, and proposing UX/UI improvements. Quickly onboarded into complex app architecture and contributed across multiple layers from the first weeks."
+    },
+    {
         "id": 6,
         "company": "Pipedrive",
-        "time": "2024.05 - 2024.08",
-        "position": "iOS Intern",
+        "time": "2024.05 - 2025.08",
+        "position": "Software Engineer",
         "link": "https://www.pipedrive.com/",
-        "desc": "Pipedrive is a sales CRM and pipeline management software designed to help small sales teams manage intricate or lengthy sales processes. It provides tools for sales automation, email tracking, and detailed reporting to enhance sales productivity and performance."
+        "desc": "As a Junior Software Engineer at Pipedrive, I contributed to the development and maintenance of the company’s iOS application, focusing on app features, performance, and functionality. I was gaining hands-on experience with Swift, Xcode, and modern iOS development practices, while collaborating in an agile environment to deliver high-quality solutions aligned with business goals."
     },
     {
         "id": 5,
